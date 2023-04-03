@@ -6,7 +6,7 @@ Bypass check if user has a real microsoft account linked with the launcher<br>
 If you have some accounts saved then executing this script will remove them!<br>
 
 # Usage
-Download the latest version of ATLauncher from https://atlauncher.com/, install it then go in terminal and execute this command:
+Download the latest version of ATLauncher from https://atlauncher.com/, install it then go in terminal and execute this command (change "YOUR-USERNAME-HERE" to your desired username):
 ### Windows CMD:
 ```
 echo [{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOUR-USERNAME-HERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}] > %appdata%/ATLauncher/configs/accounts.json
@@ -17,7 +17,7 @@ echo '[{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-0
 ```
 
 # Usage for Portable version
-Download the portable version of ATLauncher then execute this command in terminal:
+Download the portable version of ATLauncher then execute this command in terminal (change "YOUR-USERNAME-HERE" to your desired username):
 ### Windows Portable (cd to installation path) CMD:
 ```
 echo [{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOUR-USERNAME-HERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}] > configs/accounts.json
@@ -40,3 +40,5 @@ There is a file in repo called "accounts.json" [here](https://raw.githubusercont
 
 ### Portable ATLauncher
 `PATH_TO_INSTALLATION/configs/`
+
+After that you can go to that file, open it with a text editor (Notepad) and edit the value that sais "YOUR-USERNAME-HERE" to your desired username
