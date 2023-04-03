@@ -13,7 +13,7 @@ echo [{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-00
 ```
 ### Linux Shell:
 ```
-echo '[{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOURUSERNAMEHERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}]' > ~/.local/share/ATLauncher/configs/accounts.json
+echo '[{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOURUSERNAMEHERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}]' > ~/.local/share/atlauncher/configs/accounts.json
 ```
 
 # Usage for Portable version
