@@ -39,4 +39,4 @@ There is a file in repo called "accounts.json" [here](https://raw.githubusercont
 * Linux: `~/.local/share/ATLauncher/configs/`
 
 ### Portable ATLauncher
-In the root directory of the installation
+`PATH_TO_INSTALLATION/configs/`
