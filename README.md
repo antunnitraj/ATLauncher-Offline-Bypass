@@ -26,8 +26,8 @@ echo [{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-00
 ```
 echo '[{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOUR-USERNAME-HERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}]' > configs/accounts.json
 ```
-
-After that you can download an instance and then you need to CLICK THE TRIANGLE on the right of the PLAY BUTTON and select "Play Offline". Type in your desired username and go do whatever you want idc.
+# How to use
+Download an instance and then you need to CLICK THE TRIANGLE on the right of the PLAY BUTTON and select "Play Offline", then type in your desired username and enjoy!
 
 # What not to do
 Don't delete the default offline account in the accounts tab, it removes the *magic*
