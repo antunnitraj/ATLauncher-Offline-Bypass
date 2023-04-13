@@ -15,6 +15,10 @@ echo [{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-00
 ```
 echo '[{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOURUSERNAMEHERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}]' > ~/.local/share/atlauncher/configs/accounts.json
 ```
+### Linux Shell (flatpak):
+```
+echo '[{"accessToken":"0","mustLogin":true,"username":"00000000-0000-0000-0000-000000000000","minecraftUsername":"YOURUSERNAMEHERE","uuid":"00000000000000000000000000000000","collapsedPacks":[],"collapsedInstances":[],"collapsedServers":[],"internalType":"com.atlauncher.data.MicrosoftAccount"}]' > ~/.var/app/com.atlauncher.ATLauncher/data/configs/accounts.json
+```
 
 # Usage for Portable version
 Download the portable version of ATLauncher then execute this command in terminal (change "YOURUSERNAMEHERE" to your desired username):
@@ -34,6 +38,7 @@ There is a file in repo called "accounts.json" [here](https://raw.githubusercont
 ### ATLauncher
 * Windows: `%appdata%/ATLauncher/configs/`
 * Linux: `~/.local/share/ATLauncher/configs/`
+* Linux (flatpak): `~/.var/app/com.atlauncher.ATLauncher/data/configs/`
 
 ### Portable ATLauncher
 `PATH_TO_INSTALLATION/configs/`
