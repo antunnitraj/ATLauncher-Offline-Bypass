@@ -1,3 +1,6 @@
+# ⚠️ NO LONGER WORKS ⚠️
+Feel free to use my patch on Prism Launcher here: https://github.com/antunnitraj/Prism-Launcher-PolyMC-Offline-Bypass
+
 # About this project
 Bypass check if user has a real microsoft account linked with the launcher<br>
 ⚠️ This is for entertainment purposes only ⚠️
