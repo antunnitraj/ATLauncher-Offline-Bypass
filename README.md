@@ -1,4 +1,11 @@
 # ⚠️ NO LONGER WORKS ⚠️
+ATLauncher made a commit that checks the validity of a minecraft account. Last known version that the bypass works on is **3.4.28.1** that can be found [here](https://github.com/ATLauncher/ATLauncher/releases/tag/v3.4.28.1)
+### Linux Shell (flatpak) install
+```
+flatpak install com.atlauncher.ATLauncher
+sudo flatpak update --commit=8099d231fac67b8ac78b3fbdf1a4450c92c00b1667cff5e2cb32aa7a16bd7a3e com.atlauncher.ATLauncher
+```
+
 Feel free to use my patch on Prism Launcher here: https://github.com/antunnitraj/Prism-Launcher-PolyMC-Offline-Bypass
 
 # About this project
